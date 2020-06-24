@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[44]:
+# In[45]:
 
 
 class Point:
@@ -21,7 +21,7 @@ class Point:
         
     
     def distance(self, another):
-        num = pow(self.x - another.x, 2, 2) + pow(self.y - another.y, 2, 2)
+        num = pow(self.x - another.x, 2) + pow(self.y - another.y, 2)
         num2 = pow(num, 0.5)
         return num2
         
